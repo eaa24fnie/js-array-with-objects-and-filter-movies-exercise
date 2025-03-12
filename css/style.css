@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+   
+}
+
+#product-container article {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#articles-container article.hidden {
+    display: none;
+}
+
+form {
+    margin: 4%;
+}
+
+section#movies-container, section#arts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1%;
+    padding: 2% 1.5%;
+    border: 2px solid darkblue;
+    width: 28%;
+    scroll-padding-top: auto;
+}
+
+article img {
+    width: 25rem;
+    height: 35rem;
+}
+
+section#books-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3 {
+    margin-bottom: 2%;
+}
+
+p {
+    margin-bottom: 2.5%;
+    margin-left: 0.2%;
+}
